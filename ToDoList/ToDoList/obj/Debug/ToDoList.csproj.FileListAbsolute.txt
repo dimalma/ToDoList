@@ -1,0 +1,17 @@
+C:\git\ToDoList\ToDoList\bin\Debug\ToDoList.exe.config
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList.csprojResolveAssemblyReference.cache
+C:\git\ToDoList\ToDoList\obj\Debug\MainWindow.g.cs
+C:\git\ToDoList\ToDoList\obj\Debug\App.g.cs
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList_MarkupCompile.cache
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList_MarkupCompile.lref
+C:\git\ToDoList\ToDoList\bin\Debug\ToDoList.exe
+C:\git\ToDoList\ToDoList\bin\Debug\ToDoList.pdb
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoItem.g.cs
+C:\git\ToDoList\ToDoList\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\git\ToDoList\ToDoList\obj\Debug\MainWindow.baml
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoItem.baml
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList.g.resources
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList.Properties.Resources.resources
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList.csproj.GenerateResource.Cache
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList.exe
+C:\git\ToDoList\ToDoList\obj\Debug\ToDoList.pdb

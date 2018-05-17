@@ -1,0 +1,39 @@
+﻿<Window x:Class="ToDoList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoList"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock VerticalAlignment="Center" Margin="10 0 ">2018/5/17</TextBlock>
+
+        <!-- To-dos -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <StackPanel x:Name="TodoStack"></StackPanel>
+            <local:ToDoItem></local:ToDoItem>
+            <Button x:Name="AddBtn" Click="AddBtn_Click">Add</Button>
+        </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <!-- 自定按鈕 -->
+            <Grid x:Name="SaveBtn" MouseDown="SaveBtn_MouseDown">
+                <Rectangle Width="150" Height="50" Fill="CornflowerBlue"></Rectangle>
+                <TextBlock Foreground="AliceBlue" VerticalAlignment="Center" HorizontalAlignment="Center">Save</TextBlock>
+            </Grid>
+            <Grid>
+                <Rectangle Width="150" Height="50" Fill="CornflowerBlue"></Rectangle>
+                <TextBlock Foreground="AliceBlue" VerticalAlignment="Center" HorizontalAlignment="Center">Tasks</TextBlock>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>
